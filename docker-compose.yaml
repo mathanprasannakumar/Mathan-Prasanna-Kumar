@@ -5,5 +5,5 @@ services:
     environment: 
       - DISPLAY=:1
     volumes:
-      - /home/mat/mathanprasannakumar.github.io/frontend:/app
+      - /home/mat/Mathan-Prasanna-Kumar/frontend:/app
     tty: true
