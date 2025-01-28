@@ -6,7 +6,7 @@ const Contact=()=>
 {    
     const form = useRef(null); 
 
-    const sendEmail=(e)=>{
+    const sendEmail=(e: React.FormEvent<HTMLFormElement>)=>{
             e.preventDefault();   
 
             emailjs.sendForm(
