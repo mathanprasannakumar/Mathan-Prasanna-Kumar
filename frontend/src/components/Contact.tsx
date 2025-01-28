@@ -10,11 +10,11 @@ const Contact=()=>
             e.preventDefault();   
 
             emailjs.sendForm(
-                process.env.NEXT_PUBLIC_EMAIL_JS_SERVICE_ID,
-                process.env.NEXT_PUBLIC_EMAIL_JS_TEMPLATE_ID,
-                form.current,
+                process.env.NEXT_PUBLIC_EMAIL_JS_SERVICE_ID!,
+                process.env.NEXT_PUBLIC_EMAIL_JS_TEMPLATE_ID!,
+                form.current!,
                 {
-                   publicKey: process.env.NEXT_PUBLIC_EMAIL_JS_PUBLIC_KEY 
+                   publicKey: process.env.NEXT_PUBLIC_EMAIL_JS_PUBLIC_KEY! 
                 }
             ).then(
                 ()=>{
