@@ -1,7 +1,5 @@
 import Image from "next/image"
 import profile from "../../public/profile-transformed-bff.png";
-import wavesuperone from "../../public/wave_super_one.png"
-import wavesupertwo from "../../public/wave_super_two.png"
 
 
 const About=() =>

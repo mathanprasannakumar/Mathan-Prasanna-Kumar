@@ -5,31 +5,6 @@ import {useState,useEffect} from "react";
 
 const Navbar = ( )=>{
 
-    const [fontColor,setfontColor] = useState<string>("text-white");
-
-    useEffect(()=>{
-        // render function
-        const handleScroll =()=>{
-            const experiencesection = document.getElementById("experience");
-            const aboutsection = document.getElementById("about");
-           
-            const experiencesectionpos = experiencesection?.getBoundingClientRect();
-            const aboutsectionpos = aboutsection?.getBoundingClientRect(); 
-            
-            if(experiencesectionpos?.top <= 50 && experiencesectionpos?.bottom>50)
-            {
-                setfontColor("text-black");
-            }
-            else
-                setfontColor("text-white");
-        }
-
-        window.addEventListener("scroll",handleScroll);
-        // cleanup function 
-        return(()=>{
-            window.removeEventListener("scroll",handleScroll);
-        })
-    },[])
 
     return (
        <nav>

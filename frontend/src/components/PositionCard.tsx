@@ -1,10 +1,8 @@
 'use client'
 import Image from "next/image"
-import robotoailogo from "../../public/robotoai_logo.png"
 import { StaticImageData} from "next/image";
 import React from "react"
 import {useState} from "react"
-import { stringify } from "querystring";
 
 interface PosDetail
 {

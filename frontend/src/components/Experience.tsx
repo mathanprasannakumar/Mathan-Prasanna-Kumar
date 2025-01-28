@@ -1,5 +1,4 @@
 "use client"
-import Image from "next/image"
 import robotoailogo from "../../public/robotoai_logo.png"
 import PositionCard  from "./PositionCard"
 import { StaticImageData } from "next/image"
