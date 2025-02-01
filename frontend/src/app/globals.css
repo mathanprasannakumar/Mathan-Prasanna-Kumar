@@ -17,6 +17,6 @@
 body {
   color: var(--foreground);
   background: var(--background);
-  font-family: "Ubuntu";
+  font-family: "monospace";
   /* overflow-x: hidden; */
 }

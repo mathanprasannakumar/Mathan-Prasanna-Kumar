@@ -10,14 +10,14 @@ const Navbar = ( )=>{
         {/* flexcontainer */}
             <div className={`px-80 py-10 flex items-center space-x-32 fixed w-full bg-slate-100 text-black z-20 rounded-3xl`}> 
                 <div className="font-extrabold text-2xl">
-                    <Link href="/">Mathan Prasanna Kumar</Link>
+                    <Link href="/" className="hover:text-slate-500">Mathan Prasanna Kumar</Link>
                 </div>
                  <div className="font-semibold space-x-10 text-lg">
-                    <Link href="#projects">Projects</Link>
-                    <Link href="#experience">Experience</Link>
-                    <Link href="#articles">Articles</Link>
-                    <Link href="#about" >About</Link>
-                    <Link href="#contact">Contact</Link>
+                    <Link href="#projects" className="hover:text-slate-500">Projects</Link>
+                    <Link href="#experience" className="hover:text-slate-500">Experience</Link>
+                    <Link href="#articles" className="hover:text-slate-500">Articles</Link>
+                    <Link href="#about" className="hover:text-slate-500">About</Link>
+                    <Link href="#contact" className="hover:text-slate-500">Contact</Link>
                 </div>
             </div>
        </nav> 

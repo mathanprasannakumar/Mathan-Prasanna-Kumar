@@ -45,7 +45,7 @@ const Contact=()=>
                                 <button className="p-2 rounded-xl bg-black text-white mt-5 w-20 hover:text-black hover:bg-slate-400">Submit</button>
                             </div>
                         </form>
-                        <div className="text-white text-5xl pt-40 font-semibold font-roboto space-y-10">
+                        <div className="text-white text-4xl pt-40 font-semibold font-roboto space-y-10">
                             <h3 className=""> Thanks for visiting my site !</h3>
                             <h3 className="bg-slate-50 p-2 rounded-3xl text-black"> Lets do something greater together.</h3>
                         </div>
